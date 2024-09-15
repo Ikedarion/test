@@ -1,0 +1,23 @@
+.header {
+    background-color: white;
+}
+
+.header__inner {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: none;
+    border-bottom: 1px solid #E0DFDE;
+    text-align: center;
+}
+.header__item {
+    margin: 0 auto;
+}
+
+.header__logo {
+    color: #8a7869;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: "self";
+}

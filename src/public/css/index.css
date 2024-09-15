@@ -1,0 +1,159 @@
+.contact-form__content {
+    margin: 0 auto;
+    padding: 20px 20px;
+    max-width: 1230px;
+}
+
+
+.contact-form__heading {
+    margin-bottom: 30px;
+    text-align: center;
+    color: #97826f;
+    font-family: "papyrus";
+}
+
+.form {
+    width: 80vw;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.form__group {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    margin-top: 15px;
+}
+
+.form__error {
+    width: 60%;
+    margin-left: 40%;
+    text-align: left;
+    color: #ed6262;
+}
+
+.form__group-title {
+    width: 40%;
+    text-align: left;
+}
+
+.form__label--item {
+    color: #8B7969;
+}
+
+.form__label--required {
+    color: #eb9595;
+    margin-left: 5px;
+}
+
+.form__group-content {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}
+
+.form__item--text,
+.form__item--textarea {
+    text-align: left;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    color: #8B7969;
+}
+
+
+.form__item--label {
+    margin-right: 10%;
+    color: #8B7969;
+}
+
+.form__item--label-input {
+    margin-right: 4px;
+    appearance: none;
+    outline: 1px solid rgb(151, 132, 132);
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+}
+
+.form__item--label input:checked {
+    background-color: rgb(159, 137, 137);
+}
+
+.first_and_last_name {
+    display: flex;
+    width: 100%;
+}
+
+.form__item--name {
+    width: 100%;
+    margin: 0 10px 0 0;
+}
+
+.form__item--text-input,
+.form__item--textarea-input,
+.form__item--select-option {
+    border: 1px solid #fbf8f8;
+    padding: 10px;
+    width: 100%;
+    background-color: #fbf8f8;
+    padding: 10px 20px;
+    color: #bcb2b2;
+    appearance: none;
+    resize: none;
+}
+
+.form__item--tel {
+    width: 100%;
+}
+
+
+.form__item--tel-input {
+    width: 100%;
+    border: 1px solid #fbf8f8;
+    background-color: #fbf8f8;
+    padding: 10px 15px;
+    color: #bcb2b2;
+}
+
+.span {
+    margin: 2%;
+    color: #8B7969;
+    padding-top: 1px;
+}
+
+.form__item--select {
+    text-align: left;
+    width: 60%;
+    position: relative;
+}
+
+.form__item--select::after {
+    content: "";
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+    border-top: 10px solid rgb(151, 132, 132);
+    border-bottom: 0;
+    padding: px;
+}
+
+
+.form__button {
+    margin-top: 30px;
+    text-align: center;
+}
+
+
+.form__button-submit {
+    text-align: center;
+    width: 140px;
+    height: 35px;
+    background-color: #8B7969;
+    color: white;
+    border: none;
+    cursor: pointer;
+}

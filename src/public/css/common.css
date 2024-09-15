@@ -1,0 +1,44 @@
+.header {
+    background-color: white;
+}
+
+.header__inner {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #E0DFDE;
+    text-align: center;
+}
+
+.header-utilities {
+    align-items: center;
+    display: flex;
+}
+
+.header-nav__link {
+    display: block;
+    background-color: rgb(246, 246, 246);
+    color: rgb(236, 230, 223);
+    border: 1px solid rgb(236, 230, 223);
+    text-decoration: none;
+    margin-bottom: 3px;
+    padding: 0px 5px;;
+}
+
+.header__item {
+    margin: 0 auto;
+    }
+
+.header__logo {
+    color: #8a7869;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: "self";
+    text-align: center;
+    margin-left: 60px;
+}
+
+
+
